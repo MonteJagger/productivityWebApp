@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="styles/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Exo+2|Jura" rel="stylesheet">
+</head>
+<body>
+  <h1>Productivity</h1>
+  <!-- Login -->
+  <a class="signUpButton" href="signUp.html">Sign Up</a>
+
+  <div class="container">
+    <div id="toDoDays">
+      <div class="day">
+        <h2 class="dayTitle show">Monday</h2>
+        <!-- add items to incomplete tasks -->
+        <input class="new-task" type="text" name="" value="" placeholder="Monday shit...">
+        <!-- incomplete lists -->
+        <ul class="taskList">
+          <li class="listItem"><p class="itemText">Read for an hour</p><input type="text">
+            <span class="editButton">&#9723</span><span class="deleteButton">&#9661</span>
+          </li>
+          <li class="listItem"><p class="itemText">Learn french for 30 minutes</p><input type="text">
+            <span class="editButton">&#9723</span><span class="deleteButton">&#9661</span>
+          </li>
+          <li class="listItem editMode"><p class="itemText">Practice web developing for an hour</p><input type="text" value="Practice blah blah blah">
+            <span class="editButton">&#9723</span><span class="deleteButton">&#9661</span></li>
+      </div>
+      <div class="day">
+        <h2 class="dayTitle show">Tuesday</h2>
+        <!-- add items to incomplete tasks -->
+        <input class="new-task" type="text" name="" value="" placeholder="Tuesday shit...">
+        <!-- incomplete lists -->
+        <ul class="taskList">
+        </ul>
+      </div>
+      <div class="day">
+        <h2 class="dayTitle show">Wednesday</h2>
+        <!-- add items to incomplete tasks -->
+        <input class="new-task" type="text" name="" value="" placeholder="Wednesday shit...">
+      </div>
+      <div class="day">
+        <h2 class="dayTitle show">Thursday</h2>
+        <!-- add items to incomplete tasks -->
+        <input class="new-task" type="text" name="" value="" placeholder="Thursday shit...">
+      </div>
+      <div class="day">
+        <h2 class="dayTitle show">Friday</h2>
+        <!-- add items to incomplete tasks -->
+        <input class="new-task" type="text" name="" value="" placeholder="Friday shit...">
+      </div>
+      <div class="day">
+        <h2 class="dayTitle show">Saturday</h2>
+        <!-- add items to incomplete tasks -->
+        <input class="new-task" type="text" name="" value="" placeholder="Saturday shit...">
+      </div>
+      <div class="day">
+        <h2 class="dayTitle show">Sunday</h2>
+        <!-- add items to incomplete tasks -->
+        <input class="new-task" type="text" name="" value="" placeholder="Sunday shit...">
+      </div>
+    </div>
+
+  </div>
+
+  <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.1.1.min.js"></script>
+  <script type="text/javascript" src="scripts/toDoList.js"></script>
+</body>

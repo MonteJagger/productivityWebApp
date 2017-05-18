@@ -1,0 +1,53 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: futura;
+}
+
+.dayTitle {
+  margin: 0;
+}
+
+.listItem {
+  display: flex;
+  font-family: futura;
+  font-size: 13px;
+}
+
+.itemText {
+  margin: 0;
+  padding-top: 3px;
+
+}
+
+.editButton {
+  font-size: 20px;
+}
+
+.deleteButton {
+  font-size: 15px;
+  padding-top: 3px;
+}
+
+/* Edit Task */
+ul li input[type=text] {
+  display: none;
+}
+
+ul li.editMode input[type=text] {
+  font-family: futura;
+  font-size: 13px;
+  display: inline;
+  border: none;
+  color: blue;
+}
+
+ul li.editMode p {
+  display:none;
+}
+
+.completed {
+  opacity: 0.25;
+}
